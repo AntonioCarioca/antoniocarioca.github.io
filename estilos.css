@@ -1,0 +1,107 @@
+body{
+    background-color: #2e86de83;
+}
+
+textarea{
+    width: 650px;
+    height: 300px;
+    margin-left: 25px;
+    font-family: 'Inter';
+    font-size: 24pt;
+    background: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+#aviso{
+    font-family: 'Inter';
+    font-size: 12pt;
+    margin-top: -90px;
+    margin-left: 750px;
+}
+
+.botao{
+    width: 500px;
+    margin-top: -60px;
+    margin-left: 750px;
+}
+
+.btn{
+    width: 220px;
+    height: 50px;
+    border-radius: 32px;
+    font-family: 'Inter';
+    color: #ffffff;
+    font-size: 14pt;
+    border: none;
+    cursor: pointer;
+}
+
+#btn1{
+    background: linear-gradient(to right,#20bf6b,#26de81);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#btn2{
+    margin-left: 20px;
+    background: linear-gradient(to right,#eb3b5a,#fc5c65);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#container1{
+    display: block;
+    width: 1300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 25px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 25%;
+}
+
+h5{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 600px;
+    font-family: 'Inter';
+    font-size: 20pt;
+}
+
+p{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 580px;
+}
+
+#container2{
+    display: none;
+    width: 1300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 25px;
+    background-color: #ffffff;
+    border-radius: 32px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#resultado{
+    width: 700px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+#copiar{
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    background: linear-gradient(to right,#3867d6,#4b7bec);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
