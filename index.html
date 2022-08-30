@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <section>
+
+        <div class="top">
+            <textarea name="" id="area" cols="30" rows="10" placeholder="Digite o texto"></textarea>
+
+            <div class="btns">
+                <p>Somente palavra minusculas e sem acentos.</p>
+                <button type="button" id="btn1" onclick="criptografar()">Criptografar</button>
+                <button type="button" id="btn2">Descriptografar</button>
+            </div>  
+        </div>
+
+        <div class="bottom">
+            <div>
+                <img src="img.jpg" alt="">
+            </div>
+            <div class="texto">
+                <h1>Nenhuma mensagem encontrada</h1>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            </div>
+        </div>
+
+        <div class="bottom2">
+            <div>
+                <textarea id="resultado" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <button type="button" id="copiar">Copiar</button>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="logica.js"></script>
+
+</body>
+</html>
