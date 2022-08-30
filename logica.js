@@ -76,3 +76,39 @@ function criptografar(){
         })
     }
 }
+
+function descriptografar(){
+    
+    let btn2 = document.querySelector('#btn2')
+    let caixa = document.querySelector('#area').value
+
+    let bottom1 = document.querySelector('.bottom')
+    let bottom2 = document.querySelector('.bottom2')
+    let resultado = document.getElementById('resultado')
+
+    if(caixa == ''){
+        alert('Sem Mensagem')
+    }
+    else{
+
+         /**
+         * O metodo replace() faz a trocar de
+         * uma substring por outra.
+         */
+        let trocarA = caixa.replace(/ai/g,'a')
+        let trocarE = trocarA.replace(/enter/g,'e') 
+        let trocarI = trocarE.replace(/imes/g,'i')
+        let trocarO = trocarI.replace(/ober/g,'o')
+        let trocarU = trocarO.replace(/ufat/g,'u')
+
+        bottom1.style.display = 'none'
+        bottom2.style.display = 'flex'
+
+        resultado.innerHTML = trocarU
+
+        document.getElementById('copiar').addEventListener("click",function(){
+            resultado.select()
+            document.execCommand('copy')
+        })
+    }
+}
